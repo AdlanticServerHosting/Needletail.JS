@@ -1,5 +1,4 @@
 from Naked.toolshed.shell import execute_js, muterun_js
-import rich
 from rich.console import Console
 
 response = muterun_js('index.js')
